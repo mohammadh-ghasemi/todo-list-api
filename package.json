@@ -1,22 +1,28 @@
 {
-  "name": "todo-list-api",
-  "version": "1.0.0",
-  "description": "Build a RESTful API to allow users to manage their to-do list.",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mohammadh-ghasemi/todo-list-api.git"
-  },
-  "author": "merghez",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mohammadh-ghasemi/todo-list-api/issues"
-  },
-  "homepage": "https://github.com/mohammadh-ghasemi/todo-list-api#readme",
-  "dependencies": {
-    "express": "^4.21.2"
-  }
+    "name": "todo-list-api",
+    "version": "1.0.0",
+    "description": "Build a RESTful API to allow users to manage their to-do list.",
+    "main": "app.js",
+    "scripts": {
+        "start:dev": "nodemon server.js",
+        "start:prod": "cross-env NODE_ENV=production nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mohammadh-ghasemi/todo-list-api.git"
+    },
+    "author": "merghez",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/mohammadh-ghasemi/todo-list-api/issues"
+    },
+    "homepage": "https://github.com/mohammadh-ghasemi/todo-list-api#readme",
+    "dependencies": {
+        "dotenv": "^17.2.2",
+        "express": "^4.21.2",
+        "morgan": "^1.10.1"
+    },
+    "devDependencies": {
+        "cross-env": "^10.0.0"
+    }
 }
