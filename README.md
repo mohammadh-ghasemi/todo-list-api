@@ -3,6 +3,12 @@
 
 A RESTful Todo List API built with Node.js, Express.js, MongoDB, and JWT Authentication.
 
+## API Documentation
+
+🌐 Live Documentation:
+
+https://mohammadh-ghasemi.github.io/todo-list-api/todo-list-api-documentation.html
+
 ## Features
 
 - User Authentication & Authorization
